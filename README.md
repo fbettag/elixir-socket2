@@ -14,7 +14,7 @@ In your `mix.exs` file
 defp deps do
   [
     # ...
-    {:socket2, "~> 1.0"},
+    {:socket, github: "fbettag/elixir-socket2", override: true},
     # ...
   ]
 end
